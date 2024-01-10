@@ -1,0 +1,21 @@
+/*
+  * Note: Tried to find font similar to Graphik LC
+*/
+
+@font-face {
+  font-family: "LibreFranklin";
+  font-weight: 400;
+  src: url(../assets/fonts/LibreFranklin-Regular.ttf);
+}
+
+@font-face {
+  font-family: "LibreFranklin";
+  font-weight: 500;
+  src: url(../assets/fonts/LibreFranklin-Medium.ttf);
+}
+
+@font-face {
+  font-family: "LibreFranklin";
+  font-weight: 700;
+  src: url(../assets/fonts/LibreFranklin-SemiBold.ttf);
+}

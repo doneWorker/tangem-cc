@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Tangem Coding Challenge</title>
+  </head>
+  <body>
+    <h1 hidden>Tangem Coding Challenge</h1>
+    <main>
+      <p style="top: 0; position: absolute; color: black">
+        Use dblclick to clear the LocalStorage
+      </p>
+      <div class="alert alert--wide" id="alert-1">
+        <div class="inner">
+          <div class="image"></div>
+          <div class="copy">
+            <div class="copy--headline">
+              <span class="title semibold">Black Friday</span
+              ><span class="date inline-on-lg">, 24-27 Nov</span>
+            </div>
+            <div class="dot block-on-tablet"></div>
+            <div class="copy--off semibold">10%OFF</div>
+            <div class="dot block-on-tablet"></div>
+            <div class="copy--code inline-on-tablet">
+              Use code <span class="emphasized semibold">10FRIDAY</span
+              ><span class="inline-on-lg"> at checkout</span>
+            </div>
+          </div>
+          <button class="cta semibold cta--primary">
+            <span class="block-on-tablet">Shop now</span>
+            <svg
+              class="hide-on-tablet"
+              width="10"
+              height="18"
+              viewBox="0 0 10 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.837346 16.8105C1.13024 17.1034 1.60511 17.1034 1.89801 16.8105L9.16212 9.54635C9.29807 9.4104 9.37092 9.23525 9.38066 9.05728C9.40583 8.83781 9.33424 8.60936 9.1659 8.44102L1.90205 1.17716C1.60915 0.884272 1.13428 0.884272 0.841388 1.17717C0.548495 1.47006 0.548495 1.94493 0.841388 2.23783L7.59536 8.99179L0.837346 15.7498C0.544452 16.0427 0.544452 16.5176 0.837346 16.8105Z"
+                fill="#D9D9D9"
+                fill-opacity="0.4"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="alert alert--rect shadow-md hidden" id="alert-2">
+        <button class="close" title="Close Alert">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.46967 10.4697C0.176777 10.7626 0.176777 11.2374 0.46967 11.5303C0.762563 11.8232 1.23744 11.8232 1.53033 11.5303L6 7.06066L10.4697 11.5303C10.7626 11.8232 11.2374 11.8232 11.5303 11.5303C11.8232 11.2374 11.8232 10.7626 11.5303 10.4697L7.06066 6L11.5303 1.53033C11.8232 1.23744 11.8232 0.762563 11.5303 0.46967C11.2374 0.176777 10.7626 0.176777 10.4697 0.46967L6 4.93934L1.53033 0.46967C1.23744 0.176777 0.762563 0.176777 0.46967 0.46967C0.176777 0.762564 0.176777 1.23744 0.46967 1.53033L4.93934 6L0.46967 10.4697Z"
+              fill="white"
+              fill-opacity="0.3"
+            />
+          </svg>
+        </button>
+        <div class="inner">
+          <div class="copy">
+            <div class="copy--headline semibold">Black Friday</div>
+            <div class="copy--off semibold">10%OFF</div>
+            <div class="copy--code">
+              Use code <span class="emphasized semibold">10FRIDAY</span
+              ><span class="inline-on-lg"> at checkout</span>
+            </div>
+          </div>
+          <button class="cta cta--secondary rounded-md">
+            Shop now<span class="inline-on-tablet"> through Monday</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
